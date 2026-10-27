@@ -48,7 +48,7 @@ neoForge {
     mods { taintedmagic { sourceSet(sourceSets.main) } }
 }
 dependencies {
-    implementation files(providers.gradleProperty('coreJar').orElse('libs/thaumcraft-4-reforged-1.1-bbtt.30-filter.1-1.21.1.jar').get())
+    implementation files(providers.gradleProperty('coreJar').orElse('libs/thaumcraft-4-reforged-1.1-bbtt.12-1.21.1.jar').get())
     implementation 'com.github.glitchfiend:TerraBlender-neoforge:1.21.1-4.1.0.1'
     implementation 'top.theillusivec4.curios:curios-neoforge:9.5.1+1.21.1'
     if (providers.gradleProperty('withTinkerer').isPresent()) runtimeOnly files('libs/thaumic-tinkerer-reforged-1.1-bbtt.3-1.21.1.jar')

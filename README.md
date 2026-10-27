@@ -11,7 +11,7 @@
 Нужны **Minecraft 1.21.1**, **Java 21** и **NeoForge 21.1**; общая сборка проверена на **21.1.264**.
 
 - [Наш Thaumcraft 4: Reforged 1.1-bbtt.30-filter.1](https://github.com/yzs57phbts-web/thaumcraft-4-reforged-dop/releases/tag/1.21.1-bbtt.30-filter.1).
-- Curios API **9.5.1** и TerraBlender **4.1.0.8** — зависимости проверенного ядра T4.
+- [Curios API 9.5.1](https://www.curseforge.com/minecraft/mc-mods/curios/files/6529130) и [TerraBlender 4.1.0.1+ для NeoForge](https://www.curseforge.com/minecraft/mc-mods/terrablender-neoforge/files/6054947) — зависимости ядра T4. Для совместных проверок использовался TerraBlender 4.1.0.8.
 - Curios обязателен; Thaumic Tinkerer необязателен.
 
 Скачайте JAR из [релиза 8.2.0-port.6](https://github.com/yzs57phbts-web/tainted-magic-reforged/releases/tag/1.21.1-v8.2.0-port.6) и положите в `mods` вместе с зависимостями. В папке должна быть одна версия каждого мода.
@@ -50,7 +50,11 @@
 
 ## Сборка из исходников
 
-Положите наш T4 в `libs/` либо задайте `-PcoreJar=/путь/к/T4.jar`. Curios и TerraBlender разрешаются через Maven. Для интеграционного запуска Tinkerer можно положить в `libs/` и включить `-PwithTinkerer`.
+Для компиляции сохранённых исходников нужен исторический API T4 **1.1-bbtt.12**: положите `thaumcraft-4-reforged-1.1-bbtt.12-1.21.1.jar` в `libs/` либо передайте его через `-PcoreJar`. Это исходная зависимость проекта. У базы 30 отсутствует `FortressArmorItem.protection`, поэтому она не заменяет этот JAR при компиляции. Саму зависимость в репозиторий не включаем.
+
+На установленной базе 30 проверены загрузка и интерфейс Creative, но специальная защита унаследованной брони не подтверждена: API изменился. Полная совместимость всех механик брони с базой 30 не заявляется.
+
+Curios и TerraBlender разрешаются через Maven. Для интеграционного запуска Tinkerer можно положить в `libs/` и включить `-PwithTinkerer`.
 
 ```sh
 ./gradlew build
