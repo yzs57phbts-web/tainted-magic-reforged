@@ -1,0 +1,975 @@
+{
+  "reference": "Tainted Magic 8.2.0 for Minecraft 1.7.10",
+  "item_and_block_id_map": {
+    "ItemMagicFunguar": [
+      "magic_funguar"
+    ],
+    "ItemNightshadeBerries": [
+      "nightshade_berries"
+    ],
+    "ItemVoidBlood": [
+      "void_blood"
+    ],
+    "ItemCrimsonBlood": [
+      "crimson_blood"
+    ],
+    "ItemFlyteCharm": [
+      "flyte_charm"
+    ],
+    "ItemGateKey": [
+      "gate_key"
+    ],
+    "ItemWarpFertilizer": [
+      "warp_fertilizer"
+    ],
+    "ItemFocusTaintSwarm": [
+      "focus_taint_swarm"
+    ],
+    "ItemFocusDarkMatter": [
+      "focus_dark_matter"
+    ],
+    "ItemFocusMageMace": [
+      "focus_mage_mace"
+    ],
+    "ItemFocusShockwave": [
+      "focus_shockwave"
+    ],
+    "ItemFocusVisShard": [
+      "focus_vis_shard"
+    ],
+    "ItemFocusLumos": [
+      "focus_lumos"
+    ],
+    "ItemWarpedGoggles": [
+      "warped_goggles"
+    ],
+    "ItemVoidmetalGoggles": [
+      "voidmetal_goggles"
+    ],
+    "ItemVoidwalkerBoots": [
+      "voidwalker_boots"
+    ],
+    "ItemVoidwalkerSash": [
+      "voidwalker_sash"
+    ],
+    "ItemVoidFortressHelmet": [
+      "void_fortress_helmet"
+    ],
+    "ItemVoidFortressChestplate": [
+      "void_fortress_chestplate"
+    ],
+    "ItemVoidFortressLeggings": [
+      "void_fortress_leggings"
+    ],
+    "ItemShadowFortressHelmet": [
+      "shadow_fortress_helmet"
+    ],
+    "ItemShadowFortressChestplate": [
+      "shadow_fortress_chestplate"
+    ],
+    "ItemShadowFortressLeggings": [
+      "shadow_fortress_leggings"
+    ],
+    "ItemLumosRing": [
+      "lumos_ring"
+    ],
+    "ItemThaumicDisassembler": [
+      "thaumic_disassembler"
+    ],
+    "ItemHollowDagger": [
+      "hollow_dagger"
+    ],
+    "ItemShadowmetalHoe": [
+      "shadowmetal_hoe"
+    ],
+    "ItemShadowmetalPick": [
+      "shadowmetal_pick"
+    ],
+    "ItemShadowmetalSpade": [
+      "shadowmetal_spade"
+    ],
+    "ItemShadowmetalAxe": [
+      "shadowmetal_axe"
+    ],
+    "ItemShadowmetalSword": [
+      "shadowmetal_sword"
+    ],
+    "ItemPrimalBlade": [
+      "primal_blade"
+    ],
+    "BlockWarpwoodLog": [
+      "warpwood_log"
+    ],
+    "BlockWarpwoodLeaves": [
+      "warpwood_leaves"
+    ],
+    "BlockWarpwoodSapling": [
+      "warpwood_sapling"
+    ],
+    "BlockWarpwoodPlanks": [
+      "warpwood_planks"
+    ],
+    "BlockNightshadeBush": [
+      "nightshade_bush"
+    ],
+    "BlockLumos": [
+      "lumos"
+    ],
+    "ItemMaterial": [
+      "shadowmetal_ingot",
+      "shadow_cloth",
+      "crimson_cloth",
+      "warped_shard",
+      "tainted_shard",
+      "creation_shard",
+      "thaumic_alloy_plate",
+      "crimson_alloy_plate",
+      "shadowmetal_nugget",
+      "primordial_nodule",
+      "primordial_mote",
+      "creation_fragment"
+    ],
+    "ItemSalis": [
+      "salis_tempestas",
+      "salis_aevum"
+    ],
+    "ItemWandRod": [
+      "warpwood_rod",
+      "warpwood_staff_core"
+    ],
+    "ItemWandCap": [
+      "shadowmetal_wand_cap",
+      "cloth_wand_cap",
+      "crimson_cloth_wand_cap",
+      "shadow_cloth_wand_cap"
+    ],
+    "ItemKatana": [
+      "thaumium_fortress_blade",
+      "void_fortress_blade",
+      "shadow_fortress_blade"
+    ]
+  },
+  "item_forms": 60,
+  "ordinary_recipe_additions": [
+    "shadowmetal_ingot",
+    "shadowmetal_nuggets",
+    "warpwood_planks",
+    "void_blood"
+  ],
+  "original_recipe_keys": [
+    "ItemShadowmetalPick",
+    "ItemShadowmetalAxe",
+    "ItemShadowmetalSpade",
+    "ItemShadowmetalHoe",
+    "ItemShadowmetalSword",
+    "ItemFocusShockwave",
+    "ItemPrimalBlade",
+    "ItemFocusMageMace",
+    "ItemSwordCrimson",
+    "ItemVoidwalkerSash",
+    "ItemMaterial:5",
+    "ItemWandRod:0",
+    "ItemVoidFortressHelmet:goggles",
+    "ItemVoidFortressHelmet:mask0",
+    "ItemVoidFortressHelmet:mask1",
+    "ItemVoidFortressHelmet:mask2",
+    "ItemVoidFortressHelmet",
+    "ItemVoidFortressChestplate",
+    "ItemVoidFortressLeggings",
+    "ItemWarpedGoggles",
+    "ItemWandCap:0",
+    "ItemFocusTaintSwarm",
+    "ItemFocusDarkMatter",
+    "ItemMaterial:7",
+    "ItemVoidwalkerBoots",
+    "ItemSalis:0",
+    "ItemSalis:1",
+    "ItemThaumicDisassembler",
+    "ItemShadowFortressHelmet:goggles",
+    "ItemShadowFortressHelmet:mask0",
+    "ItemShadowFortressHelmet:mask1",
+    "ItemShadowFortressHelmet:mask2",
+    "ItemShadowFortressHelmet",
+    "ItemShadowFortressChestplate",
+    "ItemShadowFortressLeggings",
+    "ItemKatana:0",
+    "ItemKatana:1",
+    "ItemKatana:2",
+    "ItemFlyteCharm",
+    "ItemGateKey",
+    "ItemVoidmetalGoggles",
+    "ItemLumosRing",
+    "ItemKatanaThaumium:inscription0",
+    "ItemKatanaThaumium:inscription1",
+    "ItemKatanaThaumium:inscription2",
+    "ItemKatana:inscription0",
+    "ItemKatana:inscription1",
+    "ItemKatana:inscription2",
+    "ItemMaterial:2",
+    "ItemWarpFertilizer",
+    "ItemMaterial:6",
+    "ItemHelmetCultistRobe",
+    "ItemChestCultistRobe",
+    "ItemLegsCultistRobe",
+    "ItemBootsCultist",
+    "ItemWandRod:1",
+    "ItemHelmetCultistPlate",
+    "ItemChestCultistPlate",
+    "ItemLegsCultistPlate",
+    "ItemHelmetCultistLeaderPlate",
+    "ItemChestCultistLeaderPlate",
+    "ItemLegsCultistLeaderPlate",
+    "ItemMaterial:1",
+    "ItemMagicFunguar",
+    "ItemHollowDagger",
+    "ItemWandCap:1",
+    "ItemWandCap:2",
+    "ItemWandCap:3",
+    "ItemFocusVisShard",
+    "ItemFocusLumos",
+    "ItemMaterial:9",
+    "ItemMaterial:10",
+    "ItemMaterial:11",
+    "ItemVoidBlood",
+    "ItemMaterial:3",
+    "ItemMaterial:4",
+    "ItemMaterial:0",
+    "Vishroom_brown",
+    "Vishroom_red"
+  ],
+  "ported_recipe_keys": [
+    "ItemShadowmetalPick",
+    "ItemShadowmetalAxe",
+    "ItemShadowmetalSpade",
+    "ItemShadowmetalHoe",
+    "ItemShadowmetalSword",
+    "ItemFocusShockwave",
+    "ItemPrimalBlade",
+    "ItemFocusMageMace",
+    "ItemSwordCrimson",
+    "ItemVoidwalkerSash",
+    "ItemMaterial:5",
+    "ItemWandRod:0",
+    "ItemVoidFortressHelmet:goggles",
+    "ItemVoidFortressHelmet:mask0",
+    "ItemVoidFortressHelmet:mask1",
+    "ItemVoidFortressHelmet:mask2",
+    "ItemVoidFortressHelmet",
+    "ItemVoidFortressChestplate",
+    "ItemVoidFortressLeggings",
+    "ItemWarpedGoggles",
+    "ItemWandCap:0",
+    "ItemFocusTaintSwarm",
+    "ItemFocusDarkMatter",
+    "ItemMaterial:7",
+    "ItemVoidwalkerBoots",
+    "ItemSalis:0",
+    "ItemSalis:1",
+    "ItemThaumicDisassembler",
+    "ItemShadowFortressHelmet:goggles",
+    "ItemShadowFortressHelmet:mask0",
+    "ItemShadowFortressHelmet:mask1",
+    "ItemShadowFortressHelmet:mask2",
+    "ItemShadowFortressHelmet",
+    "ItemShadowFortressChestplate",
+    "ItemShadowFortressLeggings",
+    "ItemKatana:0",
+    "ItemKatana:1",
+    "ItemKatana:2",
+    "ItemFlyteCharm",
+    "ItemGateKey",
+    "ItemVoidmetalGoggles",
+    "ItemLumosRing",
+    "ItemKatanaThaumium:inscription0",
+    "ItemKatanaThaumium:inscription1",
+    "ItemKatanaThaumium:inscription2",
+    "ItemKatana:inscription0",
+    "ItemKatana:inscription0_1",
+    "ItemKatana:inscription0_2",
+    "ItemKatana:inscription1",
+    "ItemKatana:inscription1_1",
+    "ItemKatana:inscription1_2",
+    "ItemKatana:inscription2",
+    "ItemKatana:inscription2_1",
+    "ItemKatana:inscription2_2",
+    "ItemMaterial:2",
+    "ItemWarpFertilizer",
+    "ItemMaterial:6",
+    "ItemHelmetCultistRobe",
+    "ItemChestCultistRobe",
+    "ItemLegsCultistRobe",
+    "ItemBootsCultist",
+    "ItemWandRod:1",
+    "ItemHelmetCultistPlate",
+    "ItemChestCultistPlate",
+    "ItemLegsCultistPlate",
+    "ItemHelmetCultistLeaderPlate",
+    "ItemChestCultistLeaderPlate",
+    "ItemLegsCultistLeaderPlate",
+    "ItemMaterial:1",
+    "ItemMagicFunguar",
+    "ItemHollowDagger",
+    "ItemWandCap:1",
+    "ItemWandCap:2",
+    "ItemWandCap:3",
+    "ItemFocusVisShard",
+    "ItemFocusLumos",
+    "ItemMaterial:9",
+    "ItemMaterial:10",
+    "ItemMaterial:11",
+    "ItemVoidBlood",
+    "ItemMaterial:3",
+    "ItemMaterial:4",
+    "ItemMaterial:0",
+    "Vishroom_brown",
+    "Vishroom_red"
+  ],
+  "original_recipe_total": 83,
+  "research_keys": [
+    "TAINTEDMAGIC",
+    "SHADOWMETAL",
+    "CAP_shadowmetal",
+    "SHADOWCLOTH",
+    "ROD_warpwood",
+    "ROD_warpwood_staff",
+    "UNBALANCEDSHARDS",
+    "WARPTREE",
+    "CRIMSONROBES",
+    "VOIDFORTRESS",
+    "WARPEDGOGGLES",
+    "KNIGHTROBES",
+    "PRAETORARMOR",
+    "VOIDBLOOD",
+    "VOIDWALKERBOOTS",
+    "BREAKPEARL",
+    "CREATIONSHARD",
+    "CREATION",
+    "SKYSALT",
+    "TIMESALT",
+    "THAUMICDISASSEMBLER",
+    "VOIDSASH",
+    "MAGICFUNGUAR",
+    "VISHROOMCRAFT",
+    "HOLLOWDAGGER",
+    "CRIMSONBLADE",
+    "SHADOWFORTRESS",
+    "CAP_cloth",
+    "CAP_crimsoncloth",
+    "CAP_shadowcloth",
+    "PRIMALBLADE",
+    "THAUMIUMKATANA",
+    "VOIDMETALKATANA",
+    "SHADOWMETALKATANA",
+    "INSCRIPTIONFIRE",
+    "INSCRIPTIONTHUNDER",
+    "INSCRIPTIONHEAL",
+    "VOIDGOGGLES",
+    "ELDRITCHFOCUS",
+    "DIFFUSIONUPGRADE",
+    "MACEFOCUS",
+    "FOCUSSHOCKWAVE",
+    "FOCUSSHARD",
+    "TAINTFOCUS",
+    "FOCUSLUMOS",
+    "LUMOSRING",
+    "FLYTECHARM",
+    "GATEKEY",
+    "TMELDRITCHMAJOR"
+  ],
+  "languages": [
+    "en_us",
+    "fr_fr",
+    "ja_jp",
+    "ru_ru",
+    "zh_cn"
+  ],
+  "preserved_assets": 114,
+  "source_classes": [
+    {
+      "original": "taintedmagic/client/ClientProxy.java",
+      "source_sha256": "ab01389fdb971e4ff827ae926cc5afa9fea09c57267ec25c44bc1f082acc5395",
+      "ported_in": [
+        "client/Client"
+      ]
+    },
+    {
+      "original": "taintedmagic/common/CommonProxy.java",
+      "source_sha256": "2afea390aa3772434cc004dd2b9ee19455871a62f5e0d7f8223b1818e2c69032",
+      "ported_in": [
+        "TaintedMagic"
+      ]
+    },
+    {
+      "original": "taintedmagic/common/TaintedMagic.java",
+      "source_sha256": "3b34a402a9065d0903bd86cc466c26954360c641e2405ac11717accaaf7c7adf",
+      "ported_in": [
+        "TaintedMagic"
+      ]
+    },
+    {
+      "original": "taintedmagic/common/TMCreativeTab.java",
+      "source_sha256": "1c6cba6c538c70d0af223b03878d56b2f71aeb4de6b4a49557c8421f1566091a",
+      "ported_in": [
+        "Content"
+      ]
+    },
+    {
+      "original": "taintedmagic/client/handler/ClientHandler.java",
+      "source_sha256": "842a51ad3991a8dbc0b832c6bb8ec02906e0642bde95e7557c6ebc53b1f728e1",
+      "ported_in": [
+        "client/Client"
+      ]
+    },
+    {
+      "original": "taintedmagic/client/handler/HUDHandler.java",
+      "source_sha256": "d750d8c8012436ea9fd4a7825314a888e9022e638cde4869d815e17026201d5c",
+      "ported_in": [
+        "client/Client"
+      ]
+    },
+    {
+      "original": "taintedmagic/client/model/ModelKatana.java",
+      "source_sha256": "2d84567859e783ee8a6cb259c2a9bcee118983697593cd9c3d50e05a2fc84e56",
+      "ported_in": [
+        "client/BladeModel"
+      ]
+    },
+    {
+      "original": "taintedmagic/client/model/ModelSaya.java",
+      "source_sha256": "c013088e2b3379d6327311ef777a0d9b8368ca75e6a78f45deb581e010d4e0a2",
+      "ported_in": [
+        "client/BladeModel"
+      ]
+    },
+    {
+      "original": "taintedmagic/client/renderer/RenderEntityDiffusion.java",
+      "source_sha256": "51d12f9df77c1b0b17fdf348291502d6400f1532c21d7a222d62ab85f49d59d6",
+      "ported_in": [
+        "client/ProjectileRenderer"
+      ]
+    },
+    {
+      "original": "taintedmagic/client/renderer/RenderEntityHomingShard.java",
+      "source_sha256": "2e845fb1803839e9b2438faf7bcc41541d93676ab3bcd25c8077ad8a8d7d97c4",
+      "ported_in": [
+        "client/ProjectileRenderer"
+      ]
+    },
+    {
+      "original": "taintedmagic/client/renderer/RenderItemKatana.java",
+      "source_sha256": "6aa06c6c8991afb401d76ef2c3329fdcdb390c0c5aeec6633ad3722e69af7d3e",
+      "ported_in": [
+        "client/BladeRenderer"
+      ]
+    },
+    {
+      "original": "taintedmagic/common/blocks/BlockLumos.java",
+      "source_sha256": "f5a3fc85b902765fdcdf4a31d611f2a289f84745ab2615ce4647df537fa8fcfe",
+      "ported_in": [
+        "LumosBlock"
+      ]
+    },
+    {
+      "original": "taintedmagic/common/blocks/BlockNightshadeBush.java",
+      "source_sha256": "acb15b24dca89a71b7f5f3ae76e221bcd882ff01ec2690045c443f06d5a4974c",
+      "ported_in": [
+        "NightshadeBush"
+      ]
+    },
+    {
+      "original": "taintedmagic/common/blocks/BlockWarpwoodLeaves.java",
+      "source_sha256": "6f82d012a323f082c1e766f7507f872bd5ecd1b265039618f453dbdf4b6f75c2",
+      "ported_in": [
+        "Content",
+        "WarpwoodLeaves",
+        "tools/gen_resources.py"
+      ]
+    },
+    {
+      "original": "taintedmagic/common/blocks/BlockWarpwoodLog.java",
+      "source_sha256": "34ef3980d80c08f5e49e5af8cb398874316c370daf5638a3ba967e56fa1a49b1",
+      "ported_in": [
+        "WarpwoodLog"
+      ]
+    },
+    {
+      "original": "taintedmagic/common/blocks/BlockWarpwoodPlanks.java",
+      "source_sha256": "e03691e363fd90d04ff3b84c1ee313a50727753b791bc4eb6bc611f977b988fb",
+      "ported_in": [
+        "Content"
+      ]
+    },
+    {
+      "original": "taintedmagic/common/blocks/BlockWarpwoodSapling.java",
+      "source_sha256": "5635ec87ee1cec74273acdb7a09d50656da41cffa8a48144ca68113de2698d1c",
+      "ported_in": [
+        "WarpwoodSapling"
+      ]
+    },
+    {
+      "original": "taintedmagic/common/crafting/RecipeVoidBlood.java",
+      "source_sha256": "f6d8faefb1d1c2e38189d156f3e87edfbb1fa385ba8975eafbbdc07d4fa32bcf",
+      "ported_in": [
+        "VoidBloodRecipe"
+      ]
+    },
+    {
+      "original": "taintedmagic/common/entities/EntityDarkMatter.java",
+      "source_sha256": "60615992bbe6a5c14a0c2afa056b19463f6190d4c1513895f1986da4556a95d8",
+      "ported_in": [
+        "MagicProjectile"
+      ]
+    },
+    {
+      "original": "taintedmagic/common/entities/EntityDiffusion.java",
+      "source_sha256": "8e2cc02c2549ad182b71b42082e684a5965166665f1e8e9de328ff17127500cb",
+      "ported_in": [
+        "MagicProjectile"
+      ]
+    },
+    {
+      "original": "taintedmagic/common/entities/EntityHomingShard.java",
+      "source_sha256": "240a6689e14c83179fed7a69ae5735dc1777652f821297eb0d0c75d7b9f94c9b",
+      "ported_in": [
+        "MagicProjectile"
+      ]
+    },
+    {
+      "original": "taintedmagic/common/handler/ConfigHandler.java",
+      "source_sha256": "36964cfea26fce240b7659552f2182c0162429e11fbb5e1aeccfdb2245f0a4d5",
+      "ported_in": [
+        "Config",
+        "StartupConfig"
+      ]
+    },
+    {
+      "original": "taintedmagic/common/handler/RenderItemSyncHandler.java",
+      "source_sha256": "60bdae9b650a844071cdc891f954f36b1447c29814f3e819710b8f6ffa5353f4",
+      "ported_in": [
+        "Events",
+        "VisualState"
+      ]
+    },
+    {
+      "original": "taintedmagic/common/handler/TMEventHandler.java",
+      "source_sha256": "66dea534dbfb6127d1463b6058b993140dbccf1c209cba5a80ecd0bf9967d875",
+      "ported_in": [
+        "Events"
+      ]
+    },
+    {
+      "original": "taintedmagic/common/handler/WandHandler.java",
+      "source_sha256": "a0efe692e0604dd39d21f4e0894dd0a6e54617909c0fb67bd46d3806008f88aa",
+      "ported_in": [
+        "Magic"
+      ]
+    },
+    {
+      "original": "taintedmagic/common/helper/TaintedMagicHelper.java",
+      "source_sha256": "019298f960bf7e4789738c38e5a0219f09982eda7aad885a08794d8ac8a0ece4",
+      "ported_in": [
+        "Events",
+        "Magic",
+        "TaintedMagic"
+      ]
+    },
+    {
+      "original": "taintedmagic/common/items/IHeldItemHUD.java",
+      "source_sha256": "b7e8642cefa0648063a19e764c168651ee9480b6fbd2f8d1a746ef578d7e6eb1",
+      "ported_in": [
+        "client/Client"
+      ]
+    },
+    {
+      "original": "taintedmagic/common/items/IRenderInventoryItem.java",
+      "source_sha256": "aa92302d9df94e4221864ea9fa56eb2dd2b4c19af43c01fc1a431fc5d88fe181",
+      "ported_in": [
+        "VisualState",
+        "client/Client"
+      ]
+    },
+    {
+      "original": "taintedmagic/common/items/ItemCrimsonBlood.java",
+      "source_sha256": "19421900c94e5c36f7882f50794a1c5f32ec60e37e0587c965ba66fdf1af2ff5",
+      "ported_in": [
+        "Events",
+        "UtilityItem"
+      ]
+    },
+    {
+      "original": "taintedmagic/common/items/ItemFlyteCharm.java",
+      "source_sha256": "3d28d64ce6ae4ff985f59bfc934fcbbd5e1a00e7ecf24573947e380bce48c20e",
+      "ported_in": [
+        "Events",
+        "UtilityItem",
+        "client/Client"
+      ]
+    },
+    {
+      "original": "taintedmagic/common/items/ItemGateKey.java",
+      "source_sha256": "91c5b7c16f80f38d09a4ba8bcceac6cc9f80dade355c93d6e3dd9b516ab3e8dc",
+      "ported_in": [
+        "UtilityItem"
+      ]
+    },
+    {
+      "original": "taintedmagic/common/items/ItemMagicFunguar.java",
+      "source_sha256": "1bf27d3af6a84b605bec9e580675ecac209afcfec6d0fc55f12e1c2aec8820cc",
+      "ported_in": [
+        "FoodItem"
+      ]
+    },
+    {
+      "original": "taintedmagic/common/items/ItemMaterial.java",
+      "source_sha256": "50801b2c6741d707fdb6f853ce909a90e54f32570c54f6fdcdc5ebcd77c49f0c",
+      "ported_in": [
+        "Content",
+        "TMItem"
+      ]
+    },
+    {
+      "original": "taintedmagic/common/items/ItemNightshadeBerries.java",
+      "source_sha256": "44143235748ee8b1db16b9b7c854b733a58072284360369a58dd0a0976e396ab",
+      "ported_in": [
+        "FoodItem"
+      ]
+    },
+    {
+      "original": "taintedmagic/common/items/ItemSalis.java",
+      "source_sha256": "e5f47b652fb39814a2f8695abe5cd68a85a451a0bcf03b8a76378fed73ff464a",
+      "ported_in": [
+        "UtilityItem"
+      ]
+    },
+    {
+      "original": "taintedmagic/common/items/ItemVoidBlood.java",
+      "source_sha256": "461a44e5b0f573bc2322bc1f7397e4538040f1371c1569b320b1b74dddf5c0ec",
+      "ported_in": [
+        "UtilityItem",
+        "VoidBloodRecipe"
+      ]
+    },
+    {
+      "original": "taintedmagic/common/items/ItemWarpFertilizer.java",
+      "source_sha256": "6af7e27c9a2a5b5590047ee2d794878d2e8c919f43746de8cefcee30f8bbe4fc",
+      "ported_in": [
+        "UtilityItem"
+      ]
+    },
+    {
+      "original": "taintedmagic/common/items/TMMaterials.java",
+      "source_sha256": "c9f8fa727ad7ea8dbce335afbaa9bc89363edfca017b0a1b17270c390ef05d2b",
+      "ported_in": [
+        "Content"
+      ]
+    },
+    {
+      "original": "taintedmagic/common/network/PacketDisplayString.java",
+      "source_sha256": "e7b27026b2890dc448225192846046211d34430288b1a97caae0e9861b414185",
+      "ported_in": [
+        "Events",
+        "Trinket",
+        "UtilityItem"
+      ]
+    },
+    {
+      "original": "taintedmagic/common/network/PacketHandler.java",
+      "source_sha256": "7fa066ade89428d3375b2672c04e5cdf5c5393f815c0bf93a3e370c8c1bad7ac",
+      "ported_in": [
+        "Sparkles",
+        "VisualState"
+      ]
+    },
+    {
+      "original": "taintedmagic/common/network/PacketSyncRenderItems.java",
+      "source_sha256": "421c7b2ea8610296367b4a0b0442a34cb058647adafb14267064d729852bdd63",
+      "ported_in": [
+        "VisualState"
+      ]
+    },
+    {
+      "original": "taintedmagic/common/registry/BlockRegistry.java",
+      "source_sha256": "53dc937dbfd01a202cab2e6451c04c78116e0e92ab4782e8c2aa72995d91781f",
+      "ported_in": [
+        "Content"
+      ]
+    },
+    {
+      "original": "taintedmagic/common/registry/ItemRegistry.java",
+      "source_sha256": "244a26e9a975c923bc82e804c3adcb1352520cc92848637d6d8aea85bca66992",
+      "ported_in": [
+        "Content"
+      ]
+    },
+    {
+      "original": "taintedmagic/common/registry/OreDictRegistry.java",
+      "source_sha256": "77d3c138f98a845aa7c6f6f17416c9bbe1cdcdea90941e7f5cb43d9b633a7a67",
+      "ported_in": [
+        "tools/gen_resources.py"
+      ]
+    },
+    {
+      "original": "taintedmagic/common/registry/RecipeRegistry.java",
+      "source_sha256": "b07de50e9f9c20fd74b9269ad79a469cfddbbd2e078a23ee48ba7aa1b3db40af",
+      "ported_in": [
+        "ConvertedRecipes",
+        "Recipes"
+      ]
+    },
+    {
+      "original": "taintedmagic/common/registry/ResearchRegistry.java",
+      "source_sha256": "6ba332ca1d1256426f32757f4c3443a0a09faf0ba4528eb5d9b452567cb7990f",
+      "ported_in": [
+        "ConvertedResearch",
+        "EldritchResearchLink"
+      ]
+    },
+    {
+      "original": "taintedmagic/common/registry/TMEntityRegistry.java",
+      "source_sha256": "0aee49827c31480662581544fe8b93e81b7fd5ba69a76fe976631652b92885ab",
+      "ported_in": [
+        "Content",
+        "client/Client"
+      ]
+    },
+    {
+      "original": "taintedmagic/common/research/ThaumcraftResearchItem.java",
+      "source_sha256": "06155560b76573d5ea25ca23501213ccf3d07bd41c1144429bdebe715a21a7f9",
+      "ported_in": [
+        "EldritchResearchLink"
+      ]
+    },
+    {
+      "original": "taintedmagic/common/research/TMResearchItem.java",
+      "source_sha256": "4d4856c42ebc59e238731244f926a288a3fa8843c6096b6d00d3ca7abe2a2008",
+      "ported_in": [
+        "TMResearchItem"
+      ]
+    },
+    {
+      "original": "taintedmagic/common/world/WorldGenWarpwoodTree.java",
+      "source_sha256": "f3e21306301caf1291cffe3ac861d830903483f5c954b5524a19cd6fe5aa56be",
+      "ported_in": [
+        "WarpwoodSapling"
+      ]
+    },
+    {
+      "original": "taintedmagic/common/items/equipment/ItemLumosRing.java",
+      "source_sha256": "d6f4bc0cbfface792099db959a2a17c201b3e62ea9bded34dabd75af0f2b28ba",
+      "ported_in": [
+        "Events",
+        "Trinket"
+      ]
+    },
+    {
+      "original": "taintedmagic/common/items/equipment/ItemShadowFortressArmor.java",
+      "source_sha256": "7b95f2b6dab8d2cfcbd05905906a97c3da6db93f0110a9aae5dbf17f4d1f68dd",
+      "ported_in": [
+        "FortressArmor"
+      ]
+    },
+    {
+      "original": "taintedmagic/common/items/equipment/ItemVoidFortressArmor.java",
+      "source_sha256": "e93391b3ba259feabfd29bcc21eaaf004d84a50b39dda92ad26fa1cec647a997",
+      "ported_in": [
+        "FortressArmor"
+      ]
+    },
+    {
+      "original": "taintedmagic/common/items/equipment/ItemVoidmetalGoggles.java",
+      "source_sha256": "d992a1e6ae0da6ec3ed271fc62af4d55addb46e70556055b247793cd7beeea0c",
+      "ported_in": [
+        "MagicArmor"
+      ]
+    },
+    {
+      "original": "taintedmagic/common/items/equipment/ItemVoidwalkerBoots.java",
+      "source_sha256": "9a9bceed115845b078f03315eb57c7c378b8388730838095a1b8887b67f1e3bb",
+      "ported_in": [
+        "Events",
+        "VoidwalkerBoots"
+      ]
+    },
+    {
+      "original": "taintedmagic/common/items/equipment/ItemVoidwalkerSash.java",
+      "source_sha256": "258b1e9ac45ed56570ed1da216792a66195f0361bb059354c735096a7cfca266",
+      "ported_in": [
+        "Events",
+        "Trinket"
+      ]
+    },
+    {
+      "original": "taintedmagic/common/items/equipment/ItemWarpedGoggles.java",
+      "source_sha256": "1865a7ec7a0a1f3500a648b20abad198219c6674267a4402374a3f1194623042",
+      "ported_in": [
+        "MagicArmor"
+      ]
+    },
+    {
+      "original": "taintedmagic/common/items/tools/ItemHollowDagger.java",
+      "source_sha256": "4384e4c115a28297ba81c5fb26113f148c4fb78da34f29391fb01a835b1ecb23",
+      "ported_in": [
+        "Events",
+        "Weapon"
+      ]
+    },
+    {
+      "original": "taintedmagic/common/items/tools/ItemKatana.java",
+      "source_sha256": "189aeb0ebaad074fbeaee5664968ab706a1e8937fb18866a21a4cd1d4e1660f8",
+      "ported_in": [
+        "FortressBlade",
+        "client/BladeRenderer",
+        "client/Client"
+      ]
+    },
+    {
+      "original": "taintedmagic/common/items/tools/ItemPrimalBlade.java",
+      "source_sha256": "0ee3a03d62293ae3344b4c7d467ab9b9ba0854513dd1e74db591debb3416fac4",
+      "ported_in": [
+        "Weapon"
+      ]
+    },
+    {
+      "original": "taintedmagic/common/items/tools/ItemShadowmetalAxe.java",
+      "source_sha256": "6815c0d67b68d58339bc12bc580a9b855c08ca057d496c52521194a13c40e9b5",
+      "ported_in": [
+        "ShadowTool"
+      ]
+    },
+    {
+      "original": "taintedmagic/common/items/tools/ItemShadowmetalHoe.java",
+      "source_sha256": "97a1d9d286bd29003f543ed9c8c3c5cbcbcee4dba854fb29c2b274e487eee4a6",
+      "ported_in": [
+        "ShadowTool"
+      ]
+    },
+    {
+      "original": "taintedmagic/common/items/tools/ItemShadowmetalPick.java",
+      "source_sha256": "d3dfad434b054fde9772f9c481cd8fe82a4b067a5d8862b5f51c17086737d5c0",
+      "ported_in": [
+        "ShadowTool"
+      ]
+    },
+    {
+      "original": "taintedmagic/common/items/tools/ItemShadowmetalSpade.java",
+      "source_sha256": "b259b21e93983f5a1d096ce288a3dc97e3f10047bc605521ff37b0c22e6a80db",
+      "ported_in": [
+        "ShadowTool"
+      ]
+    },
+    {
+      "original": "taintedmagic/common/items/tools/ItemShadowmetalSword.java",
+      "source_sha256": "222f55cd82a44aeee258e7a113f43b2178ad0822b58e528a7f62e3c3813e3585",
+      "ported_in": [
+        "ShadowTool"
+      ]
+    },
+    {
+      "original": "taintedmagic/common/items/tools/ItemThaumicDisassembler.java",
+      "source_sha256": "e09cde796cbd043c9ea396917c22f3a35241b0caaad935948fc725209d5f8cba",
+      "ported_in": [
+        "Disassembler",
+        "Events"
+      ]
+    },
+    {
+      "original": "taintedmagic/common/items/wand/ItemWandCap.java",
+      "source_sha256": "af268bbf80a99fff4094e9c6a08de4c3dc25b48436841959b39724eb2ba1c83c",
+      "ported_in": [
+        "Content",
+        "Magic"
+      ]
+    },
+    {
+      "original": "taintedmagic/common/items/wand/ItemWandRod.java",
+      "source_sha256": "934e88619bcbcfe50baecb94060a450ae57559951b381e688556310328f87a4e",
+      "ported_in": [
+        "Content",
+        "Magic"
+      ]
+    },
+    {
+      "original": "taintedmagic/common/items/wand/foci/ItemFocusDarkMatter.java",
+      "source_sha256": "afc90b78935a141b0e3ab7ba9dee79c2e41c1c734d7721394a7ef83a3adbc5a2",
+      "ported_in": [
+        "Foci",
+        "MagicFocus",
+        "MagicProjectile",
+        "SummonedSwarm",
+        "client/ProjectileRenderer"
+      ]
+    },
+    {
+      "original": "taintedmagic/common/items/wand/foci/ItemFocusLumos.java",
+      "source_sha256": "8fd82fd868df9e9f3ed32553539b515e657ea437d4158b735722a85062de8439",
+      "ported_in": [
+        "Foci",
+        "MagicFocus",
+        "MagicProjectile",
+        "SummonedSwarm",
+        "client/ProjectileRenderer"
+      ]
+    },
+    {
+      "original": "taintedmagic/common/items/wand/foci/ItemFocusMageMace.java",
+      "source_sha256": "b1968550dbe85e2919b562715dd84ec4c2c25fca94f22658195fd396ab39ca30",
+      "ported_in": [
+        "Foci",
+        "MagicFocus",
+        "MagicProjectile",
+        "SummonedSwarm",
+        "client/ProjectileRenderer"
+      ]
+    },
+    {
+      "original": "taintedmagic/common/items/wand/foci/ItemFocusShockwave.java",
+      "source_sha256": "da5991ee24e550b33635f174a3643dc5cdea6d479640dd89139c6af2ea2bfc9b",
+      "ported_in": [
+        "Foci",
+        "MagicFocus",
+        "MagicProjectile",
+        "SummonedSwarm",
+        "client/ProjectileRenderer"
+      ]
+    },
+    {
+      "original": "taintedmagic/common/items/wand/foci/ItemFocusTaintSwarm.java",
+      "source_sha256": "2da24e7ecc34c7299d337390f3c9d9bd03d899e4b5ea75e31b9654a67e7ae357",
+      "ported_in": [
+        "Foci",
+        "MagicFocus",
+        "MagicProjectile",
+        "SummonedSwarm",
+        "client/ProjectileRenderer"
+      ]
+    },
+    {
+      "original": "taintedmagic/common/items/wand/foci/ItemFocusVisShard.java",
+      "source_sha256": "baf72f57cf25f869ab638cb4b1dd61e217db7ac994ae717c3c174a72b485f5a5",
+      "ported_in": [
+        "Foci",
+        "MagicFocus",
+        "MagicProjectile",
+        "SummonedSwarm",
+        "client/ProjectileRenderer"
+      ]
+    },
+    {
+      "original": "taintedmagic/common/items/wand/foci/TMFocusUpgrades.java",
+      "source_sha256": "c0339abb050c9c90cb821a2cfee8a64d416b5a4ca18c3fe5752e1993cf47399c",
+      "ported_in": [
+        "Foci",
+        "StartupConfig"
+      ]
+    }
+  ],
+  "modern_adaptations": [
+    "Legacy metadata variants use stable separate registry IDs; both Warpwood log states share one block ID.",
+    "Three wildcard inscription recipes expand to all three blade materials (+6 registry recipes).",
+    "Minecraft 1.21.1 equipment components, enchantment tags, Curios slots and native melee recovery replace the 1.7.10 APIs.",
+    "By user request, staff base damage increases from 7 to 9 with 1 attack/sec; wand mace uses 1.6 attacks/sec, staff mace 1 attack/sec.",
+    "Damage sources respect PvP, team and world edit permissions. Gate Key supports modern negative build heights.",
+    "Leaves use native distance based decay and modern collision uses surface normals for shard ricochets.",
+    "Decorative particles run through the existing Thaumcraft particle engine and its quality setting."
+  ]
+}

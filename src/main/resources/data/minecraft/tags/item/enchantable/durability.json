@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "taintedmagic:shadowmetal_sword",
+    "taintedmagic:hollow_dagger",
+    "taintedmagic:primal_blade",
+    "taintedmagic:shadowmetal_pick",
+    "taintedmagic:shadowmetal_spade",
+    "taintedmagic:shadowmetal_axe",
+    "taintedmagic:shadowmetal_hoe",
+    "taintedmagic:warped_goggles",
+    "taintedmagic:voidmetal_goggles",
+    "taintedmagic:void_fortress_helmet",
+    "taintedmagic:shadow_fortress_helmet",
+    "taintedmagic:void_fortress_chestplate",
+    "taintedmagic:shadow_fortress_chestplate",
+    "taintedmagic:void_fortress_leggings",
+    "taintedmagic:shadow_fortress_leggings",
+    "taintedmagic:voidwalker_boots"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "taintedmagic:shadowmetal_sword",
+    "taintedmagic:hollow_dagger",
+    "taintedmagic:primal_blade",
+    "taintedmagic:shadowmetal_axe"
+  ]
+}

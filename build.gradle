@@ -1,0 +1,71 @@
+plugins {
+    id 'java-library'
+    id 'net.neoforged.moddev' version '2.0.148'
+}
+version = mod_version
+group = 'taintedmagic'
+base { archivesName = 'tainted-magic-reforged' }
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+repositories {
+    maven { url = 'https://maven.theillusivec4.top/' }
+    maven { url = 'https://maven.minecraftforge.net/' }
+}
+neoForge {
+    version = '21.1.256'
+    parchment { minecraftVersion = '1.21.1'; mappingsVersion = '2024.11.17' }
+    runs {
+        client {
+            client(); gameDirectory = file('run/client')
+            if (providers.gradleProperty('effectsSmoke').isPresent()) {
+                systemProperty 'taintedmagic.effectsSmoke', 'true'
+                systemProperty 'taintedmagic.visualSmoke', 'true'
+                programArgument '--width'; programArgument '1200'
+                programArgument '--height'; programArgument '800'
+            }
+            if (providers.gradleProperty('sheathSmoke').isPresent()) systemProperty 'taintedmagic.sheathSmoke', 'true'
+            if (providers.gradleProperty('sanitySmoke').isPresent()) systemProperty 'taintedmagic.sanitySmoke', 'true'
+            if (providers.gradleProperty('visualSmoke').isPresent()) {
+                systemProperty 'taintedmagic.visualSmoke', 'true'
+                programArgument '--width'; programArgument '1200'
+                programArgument '--height'; programArgument '800'
+            }
+            if (providers.gradleProperty('clientSmoke').isPresent()) {
+                systemProperty 'taintedmagic.clientSmoke', 'true'
+                programArgument '--width'; programArgument '1200'
+                programArgument '--height'; programArgument '800'
+            }
+        }
+        server { server(); gameDirectory = file('run/server'); programArgument '--nogui' }
+        gameTestServer {
+            type = 'gameTestServer'
+            gameDirectory = file('run/gametest')
+            programArgument '--world'
+            programArgument file('build/gametestworld').absolutePath
+            systemProperty 'neoforge.enabledGameTestNamespaces', 'taintedmagic'
+        }
+        configureEach { logLevel = org.slf4j.event.Level.INFO }
+    }
+    mods { taintedmagic { sourceSet(sourceSets.main) } }
+}
+dependencies {
+    implementation files(providers.gradleProperty('coreJar').orElse('libs/thaumcraft-4-reforged-1.1-bbtt.30-filter.1-1.21.1.jar').get())
+    implementation 'com.github.glitchfiend:TerraBlender-neoforge:1.21.1-4.1.0.1'
+    implementation 'top.theillusivec4.curios:curios-neoforge:9.5.1+1.21.1'
+    if (providers.gradleProperty('withTinkerer').isPresent()) runtimeOnly files('libs/thaumic-tinkerer-reforged-1.1-bbtt.3-1.21.1.jar')
+}
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }
+def metadataVersion = project.version.toString()
+processResources { inputs.property('version', metadataVersion); filesMatching('META-INF/neoforge.mods.toml') { expand(version: metadataVersion) } }
+tasks.named('jar', Jar) { archiveFileName = "tainted-magic-reforged-${mod_version}-1.21.1.jar" }
+def gameTestLog = layout.projectDirectory.file('run/gametest/logs/latest.log').asFile
+tasks.named('runGameTestServer') {
+    doFirst { gameTestLog.delete() }
+    doLast {
+        def log = gameTestLog
+        if (!log.isFile() || !(log.text =~ /All [1-9][0-9]* required tests passed/)) {
+            throw new GradleException('GameTest server did not finish a successful test run')
+        }
+    }
+}
+
+apply from: 'gradle/isolated-gametests.gradle'

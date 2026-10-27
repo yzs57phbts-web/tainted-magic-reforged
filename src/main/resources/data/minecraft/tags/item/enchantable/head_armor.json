@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "taintedmagic:warped_goggles",
+    "taintedmagic:voidmetal_goggles",
+    "taintedmagic:void_fortress_helmet",
+    "taintedmagic:shadow_fortress_helmet"
+  ]
+}

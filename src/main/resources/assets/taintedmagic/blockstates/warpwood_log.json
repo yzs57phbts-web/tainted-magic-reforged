@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "axis=x,knot=true": {
+      "model": "taintedmagic:block/warpwood_log_knot",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,knot=false": {
+      "model": "taintedmagic:block/warpwood_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y,knot=true": {
+      "model": "taintedmagic:block/warpwood_log_knot"
+    },
+    "axis=y,knot=false": {
+      "model": "taintedmagic:block/warpwood_log"
+    },
+    "axis=z,knot=true": {
+      "model": "taintedmagic:block/warpwood_log_knot",
+      "x": 90
+    },
+    "axis=z,knot=false": {
+      "model": "taintedmagic:block/warpwood_log",
+      "x": 90
+    }
+  }
+}

@@ -1,0 +1,6 @@
+Original: https://github.com/yorkeJohn/Tainted-Magic
+Reference commit: e7f1640dbcb39127046b16a7f4fff506c0cad75f
+Original author: John Yorke
+Original license: CC BY-NC-ND 4.0
+Private local adaptation for Minecraft 1.21.1 and Thaumcraft 4: Reforged.
+Katana/Saya models and original textures: wiiv. Research-link concept in upstream: flaxbeard.

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "AAA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "taintedmagic:shadowmetal_nugget"
+    }
+  },
+  "result": {
+    "id": "taintedmagic:shadowmetal_ingot",
+    "count": 1
+  }
+}

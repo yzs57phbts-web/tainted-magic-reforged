@@ -1,0 +1,33 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="CC BY-NC-ND 4.0 (original); private local adaptation"
+[[mods]]
+modId="taintedmagic"
+version="${version}"
+displayName="Tainted Magic: Reforged"
+authors="John Yorke (original), local 1.21.1 adaptation"
+description="Tainted Magic 8.2.0 adapted to Thaumcraft 4: Reforged on Minecraft 1.21.1."
+[[dependencies.taintedmagic]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.256,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.taintedmagic]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1]"
+ordering="NONE"
+side="BOTH"
+[[dependencies.taintedmagic]]
+modId="thaumcraft"
+type="required"
+versionRange="[1.1-bbtt.8,)"
+ordering="AFTER"
+side="BOTH"
+[[dependencies.taintedmagic]]
+modId="curios"
+type="required"
+versionRange="[9.5,)"
+ordering="AFTER"
+side="BOTH"

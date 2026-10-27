@@ -1,0 +1,149 @@
+{
+  "ItemMagicFunguar": [
+    "magic_funguar"
+  ],
+  "ItemNightshadeBerries": [
+    "nightshade_berries"
+  ],
+  "ItemVoidBlood": [
+    "void_blood"
+  ],
+  "ItemCrimsonBlood": [
+    "crimson_blood"
+  ],
+  "ItemFlyteCharm": [
+    "flyte_charm"
+  ],
+  "ItemGateKey": [
+    "gate_key"
+  ],
+  "ItemWarpFertilizer": [
+    "warp_fertilizer"
+  ],
+  "ItemFocusTaintSwarm": [
+    "focus_taint_swarm"
+  ],
+  "ItemFocusDarkMatter": [
+    "focus_dark_matter"
+  ],
+  "ItemFocusMageMace": [
+    "focus_mage_mace"
+  ],
+  "ItemFocusShockwave": [
+    "focus_shockwave"
+  ],
+  "ItemFocusVisShard": [
+    "focus_vis_shard"
+  ],
+  "ItemFocusLumos": [
+    "focus_lumos"
+  ],
+  "ItemWarpedGoggles": [
+    "warped_goggles"
+  ],
+  "ItemVoidmetalGoggles": [
+    "voidmetal_goggles"
+  ],
+  "ItemVoidwalkerBoots": [
+    "voidwalker_boots"
+  ],
+  "ItemVoidwalkerSash": [
+    "voidwalker_sash"
+  ],
+  "ItemVoidFortressHelmet": [
+    "void_fortress_helmet"
+  ],
+  "ItemVoidFortressChestplate": [
+    "void_fortress_chestplate"
+  ],
+  "ItemVoidFortressLeggings": [
+    "void_fortress_leggings"
+  ],
+  "ItemShadowFortressHelmet": [
+    "shadow_fortress_helmet"
+  ],
+  "ItemShadowFortressChestplate": [
+    "shadow_fortress_chestplate"
+  ],
+  "ItemShadowFortressLeggings": [
+    "shadow_fortress_leggings"
+  ],
+  "ItemLumosRing": [
+    "lumos_ring"
+  ],
+  "ItemThaumicDisassembler": [
+    "thaumic_disassembler"
+  ],
+  "ItemHollowDagger": [
+    "hollow_dagger"
+  ],
+  "ItemShadowmetalHoe": [
+    "shadowmetal_hoe"
+  ],
+  "ItemShadowmetalPick": [
+    "shadowmetal_pick"
+  ],
+  "ItemShadowmetalSpade": [
+    "shadowmetal_spade"
+  ],
+  "ItemShadowmetalAxe": [
+    "shadowmetal_axe"
+  ],
+  "ItemShadowmetalSword": [
+    "shadowmetal_sword"
+  ],
+  "ItemPrimalBlade": [
+    "primal_blade"
+  ],
+  "BlockWarpwoodLog": [
+    "warpwood_log"
+  ],
+  "BlockWarpwoodLeaves": [
+    "warpwood_leaves"
+  ],
+  "BlockWarpwoodSapling": [
+    "warpwood_sapling"
+  ],
+  "BlockWarpwoodPlanks": [
+    "warpwood_planks"
+  ],
+  "BlockNightshadeBush": [
+    "nightshade_bush"
+  ],
+  "BlockLumos": [
+    "lumos"
+  ],
+  "ItemMaterial": [
+    "shadowmetal_ingot",
+    "shadow_cloth",
+    "crimson_cloth",
+    "warped_shard",
+    "tainted_shard",
+    "creation_shard",
+    "thaumic_alloy_plate",
+    "crimson_alloy_plate",
+    "shadowmetal_nugget",
+    "primordial_nodule",
+    "primordial_mote",
+    "creation_fragment"
+  ],
+  "ItemSalis": [
+    "salis_tempestas",
+    "salis_aevum"
+  ],
+  "ItemWandRod": [
+    "warpwood_rod",
+    "warpwood_staff_core"
+  ],
+  "ItemWandCap": [
+    "shadowmetal_wand_cap",
+    "cloth_wand_cap",
+    "crimson_cloth_wand_cap",
+    "shadow_cloth_wand_cap"
+  ],
+  "ItemKatana": [
+    "thaumium_fortress_blade",
+    "void_fortress_blade",
+    "shadow_fortress_blade"
+  ]
+}

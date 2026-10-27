@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "taintedmagic:item/itemgatekey",
+    "layer1": "taintedmagic:item/itemgatekey_overlay"
+  }
+}

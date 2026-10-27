@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "taintedmagic:shadowmetal_ingot"
+    }
+  ],
+  "result": {
+    "id": "taintedmagic:shadowmetal_nugget",
+    "count": 9
+  }
+}

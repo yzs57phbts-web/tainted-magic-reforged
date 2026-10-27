@@ -1,0 +1,18 @@
+{
+  "shockwave": {
+    "sounds": [
+      {
+        "name": "taintedmagic:shockwave",
+        "stream": false
+      }
+    ]
+  },
+  "shard": {
+    "sounds": [
+      {
+        "name": "taintedmagic:shard",
+        "stream": false
+      }
+    ]
+  }
+}

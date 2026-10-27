@@ -1,0 +1,11 @@
+{
+  "upstream_recipes": 79,
+  "types": {
+    "addShapedRecipe": 5,
+    "addInfusionCraftingRecipe": 43,
+    "addShapelessArcaneCraftingRecipe": 6,
+    "addArcaneCraftingRecipe": 20,
+    "addCrucibleRecipe": 5
+  },
+  "research_entries": 48
+}

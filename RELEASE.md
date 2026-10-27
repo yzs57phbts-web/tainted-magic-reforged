@@ -1,0 +1,9 @@
+# Tainted Magic: Reforged 8.2.0-port.6
+
+Minecraft 1.21.1 / NeoForge / Java 21.
+
+Проверенный выпуск для нашей основы T4 1.1-bbtt.30-filter.1.
+
+SHA256: `87370fa340d7111296a73c45bdd5d1b3f08c275410b0eed92f0fe86b2b82c4a1`
+
+Состав, доработки, зависимости и границы проверки — в README.

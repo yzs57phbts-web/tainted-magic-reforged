@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "taintedmagic:shadowmetal_pick",
+    "taintedmagic:shadowmetal_spade",
+    "taintedmagic:shadowmetal_axe",
+    "taintedmagic:shadowmetal_hoe"
+  ]
+}

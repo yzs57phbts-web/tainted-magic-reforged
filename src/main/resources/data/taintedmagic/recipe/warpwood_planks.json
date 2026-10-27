@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "taintedmagic:warpwood_log"
+    }
+  ],
+  "result": {
+    "id": "taintedmagic:warpwood_planks",
+    "count": 4
+  }
+}

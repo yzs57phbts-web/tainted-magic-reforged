@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "thaumcraft:void_seed",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "taintedmagic:warpwood_log",
+                  "properties": {
+                    "knot": "true"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "min": 1,
+                    "max": 5
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "taintedmagic:warpwood_log"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
